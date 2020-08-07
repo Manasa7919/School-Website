@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            .one {
+border: 50px solid white;
+margin-top: 160px;
+margin-left: 500px;;
+width: 400px;
+height:170px;
+padding-top: 50px;
+background-color: lightblue;
+}
+body {
+    background-size: cover;
+    background-image: url("1.jpg");
+}
+/* .two {
+    height: 200px;
+    width: max-content;
+    background-color: black;
+    color: blanchedalmond;
+} */
+.two {
+  color: rgb(252, 252, 252);
+  font-weight: bold;
+  font-size: 30px;
+}
+      </style>
+    </head>
+    <body>     
+        <a href="1.html" class="t">
+            <i class="fa fa-chevron-circle-left" style="font-size:30px;color:black"></i>
+         </a>
+         <label class="two">HOME</label>
+        <form action="http://localhost/web/admin.php" method="POST">          
+         <div class="one" align="center">
+            <label><strong> Username</strong>
+            </label>&nbsp&nbsp&nbsp
+            <input type="text" name="user" placeholder="user"><br><br>
+            <label><strong>Password</strong></label>&nbsp&nbsp&nbsp
+            <input type="password" name="pass" placeholder="pass"><br><br>
+            <input type="submit" value="Log in" style="background-color: black;color: blanchedalmond;width:70px;height:25px">
+        </div>
+        </form>
+    </body>
+</html>
